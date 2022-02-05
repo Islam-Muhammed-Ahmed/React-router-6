@@ -1,0 +1,46 @@
+.upper-nav {
+    height: 50px;
+    background-color: #e7d2b9;
+}
+
+span {
+    font-weight: 500;
+}
+
+.left .span {
+    color: #4e2008;
+}
+
+.upper-nav__span {
+    padding: 5px;
+}
+
+.fb:hover {
+    color: #3b5998;
+}
+
+.tw:hover {
+    color: #00acee;
+}
+
+.wh:hover {
+    color: #25d366;
+}
+
+.insta:hover {
+    color: #bc2a8d;
+}
+
+.gp:hover {
+    color: #db4a39;
+}
+
+.fb, .wh, .insta, .gp, .tw {
+    cursor: pointer;
+    font-size: 18px;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}

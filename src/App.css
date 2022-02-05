@@ -1,0 +1,26 @@
+.fa-arrow__up {
+  position: fixed;
+  right: 0;
+  top: 90%;
+  background-color: #4e2008;
+  color: #faf7f0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.fa-arrow__up.show {
+  display: none;
+}
+
+.fa-arrow__up:hover {
+  background-color: #faf7f0;
+  color: #4e2008;
+}
